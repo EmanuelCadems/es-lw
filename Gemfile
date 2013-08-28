@@ -11,6 +11,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder',      '~> 1.2'
 gem 'tire'
+gem 'acts-as-taggable-on'
 
 
 group :doc do

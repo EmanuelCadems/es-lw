@@ -7,6 +7,8 @@ EsLw::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'articles#index'
 
+  get 'search_boolean' => 'articles#search_boolean'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
